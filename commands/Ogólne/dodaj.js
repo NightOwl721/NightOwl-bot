@@ -14,7 +14,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setColor(ee.color)
                 .setTitle(`Dodaj bota na swój serwer!`)
-                .setDescription(`[Kliknij tutaj](https://discordapp.com/api/oauth2/authorize?client_id=723180989841009408&permissions=8&scope=bot)`)
+                .setDescription(`[Kliknij tutaj](https://discord.com/api/oauth2/authorize?client_id=934127139899469865&permissions=8&scope=bot)`)
                 .setFooter(ee.footertext, ee.footericon)
             message.channel.send(embed)
         } catch (e) {
